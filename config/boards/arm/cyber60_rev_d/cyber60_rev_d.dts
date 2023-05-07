@@ -62,20 +62,11 @@
 			};
 		};
 	
-// PWM buzzer config
-    buzzer: pwm_buzzer {
-        compatible = "pwm-buzzer";
-        label = "PWM BUZZER";
-        pwms = <&pwm0 23>;
-        status = "okay";
-    };
-
 	/* These aliases are provided for compatibility with samples */
 	aliases {
 		ledgreen = &led_0;
 		ledred   = &led_1;
 		ledblue  = &led_2;
-		buzzer = &buzzer;
 	};
 
 	ext-power {
