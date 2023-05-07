@@ -75,9 +75,6 @@
 		ledgreen = &led_0;
 		ledred   = &led_1;
 		ledblue  = &led_2;
-		pwmledgreen = &pwm_led_0;
-		pwmledred = &pwm_led_1;
-		pwmledblue = &pwm_led_2;
 		buzzer = &buzzer;
 	};
 
